@@ -14,8 +14,8 @@ function Section(props) {
              <img src={image} alt={heading} />
              </div>
             }
-               
             <p>{desc}</p>
+           {id!=='Projects' && <hr /> }
         </div>
     );
 }
