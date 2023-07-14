@@ -1,7 +1,9 @@
 import './style.css';
 // import Hello from './components/Hello';
 // import Button from './components/Button';
-import Portfolio from './components/portfolio/Portfolio';
+
+// useState ex: -----
+import UseState from './components/UseState/UseState.jsx';
 
 function App(){
 
@@ -14,7 +16,7 @@ function App(){
          <Button text="Banana" color='yellow'/> 
          <Button text="Gauava" color='Green'/> 
           </div> */}
-          <Portfolio />
+           <UseState />
       </>
     )
 }
