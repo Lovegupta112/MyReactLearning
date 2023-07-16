@@ -7,7 +7,8 @@ import React from 'react';
 // import Form from './useStateBasics/Form';
 // import FormValidation from './useStateBasics/FormValidation';
 // import FormWithValidation from './useStateBasics/FormWithValidation';
-import MoviesInfo from './movieInfo/MoviesInfo';
+// import MoviesInfo from './movieInfo/MoviesInfo';j
+import CallbackProps from './callbackProps/CallbackProps';
 
 
 const UseState = () => {
@@ -27,7 +28,9 @@ const UseState = () => {
        {/*------new valiadation------*/}
        {/* <FormWithValidation /> */}
 
-      <MoviesInfo />
+      {/* <MoviesInfo /> */}
+      
+      <CallbackProps />
     </>
   );
 }
